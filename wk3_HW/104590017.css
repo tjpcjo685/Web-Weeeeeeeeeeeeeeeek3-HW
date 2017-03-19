@@ -1,0 +1,180 @@
+body {
+    background-color: #EDF2C5;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    width: 1260px;
+    margin: 0 auto;
+    padding: 0 160px;
+    box-sizing: border-box;
+}
+
+.theme {
+    font-family: Arial Black;
+    font-size: 44px;
+    color: #778A50;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.theme::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.fb_icon, .ig_icon {
+  float: right;
+  margin: 0 0 0 7px;
+}
+
+.icons, .login_join_button {
+    display: inline-block;
+}
+.login_join_button {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 3px;
+    color: #778A50;
+    border-left: 1px solid #778A50;
+    line-height: 25px;
+    margin-bottom: 17px;
+    vertical-align: top;
+}
+
+.login, .join {
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 0 0 0 7px;
+    padding: 3px 5px;
+}
+
+.buttons {
+    float: right;
+    margin-top: 53px;
+}
+
+.nav ul {
+    float: left;
+    margin-top: 0px;
+    width: 900px;
+    border-radius: 3px;
+    background-color: #778A50;
+}
+
+.nav ul::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav li {
+    float: left;
+    font-family: Arial Black;
+    font-size: 20px;
+    list-style: none;
+    color: #EDF2C5;
+    padding: 14px 60px 14px 0px;
+    display: inline-block;
+    background-color: #778A50;
+}
+
+.nav il::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: Arial Black;
+    font-size: 18px;
+    color: #EDF2C5;
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: #778A50;
+}
+
+.vegetables {
+    float: left;
+}
+
+.vegetables::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.contacts {
+    float: right;
+}
+
+.contacts::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.vegetable_title {
+    width: 395px;
+}
+
+.vegetable_title {
+    width: 400px;
+}
+
+.imgs {
+    margin-right: 12px;
+}
+
+.text {
+    width: 450px;
+    height: 130px;
+    background-color: #F7FBDA;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+
+.text p {
+    font-family: ArialMT Regular, sans-serif;
+    font-size: 12px;
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+    margin: 10px 0 16px 15px;
+}
+
+.line {
+    height: 1px;
+    width: 414px;
+    background-color: #7D7D7D;
+    margin-left: 15px;
+}
+
+.vegetablesANDcontacts::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+footer {
+    font-family: ArialMT Regular, sans-serif;
+    height: 44px;
+    background-color: #778A50;
+    margin: auto;
+}
+
+footer p {
+    color: #EDF2C5;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
